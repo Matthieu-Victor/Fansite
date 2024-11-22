@@ -1,0 +1,255 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('imgMatthieu/fondBody.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+}
+
+.bandeau {
+    background-color: #333; 
+    padding: 10px; 
+}
+
+.menu {
+    list-style-type: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: space-around; 
+}
+
+.menu li {
+    margin-right: 20px;
+    color: white;
+}
+
+.menu a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    transition: background-color 0.3s; 
+}
+
+.menu a:hover {
+    background-color: #555; 
+}
+.sous-menu {
+    display: block; 
+    padding: 0; 
+    list-style: none; 
+    margin: 0; 
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+font-family: 'trebuchet ms';
+color: green;
+}
+.container {
+    max-width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.actualites {
+    list-style: none;
+    padding: 0;
+}
+
+.actualites li {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.actualites a {
+    text-decoration: none;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+}
+
+.actualites img {
+    width: 200px; 
+    height: 200px; 
+    margin-right: 10px; 
+}
+
+.actualites a:hover {
+    color: #0056b3;
+}
+.bandeauFooter {
+    background-color: #333; 
+    padding: 10px; 
+}
+
+.menuFooter {
+    list-style-type: none; 
+    display: flex; 
+    justify-content: space-around; 
+}
+
+.menuFooter li {
+    margin: 0 15px; 
+}
+
+.menuFooter a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    transition: background-color 0.3s; 
+}
+
+.menuFooter a:hover {
+    background-color: #555; 
+}
+.containerIndex{
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding: 20px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+.IndexLegends{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+padding: 20px;
+margin: 10px 0px;
+background-image: url('imgMatthieu/drapeauBrésil2.jpg');
+
+}
+.IndexLegends p{
+    font-size: 23px;
+font-weight: bold;
+color: #000000;
+}
+.IndexLegends img{
+    height: 479px;
+    width: 327px;
+    margin-bottom: 10px;
+    }
+.IndexLegends2{
+    background-image: url('imgMatthieu/drapeauArgentine.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: #030101dd;
+}
+.IndexLegends2 img{
+    height: 479px;
+    width: 327px;
+    margin-bottom: 10px;
+}
+.PrésentationRonaldinho {
+    display: flex;
+    margin: 0% 10%;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    align-items: center; 
+}
+
+.ronaldinho-img {
+    width: 40%; 
+    margin-right: 20px; 
+}
+
+.Présentation-text {
+    width: 60%; 
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.PrésentationRonaldinho h2 {
+    color: black;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.PrésentationRonaldinho p {
+    color:black;
+}
+
+.separator {
+    height: 10px; 
+    background-color: black; 
+    margin-bottom: 20px;
+}
+
+.histoire-section {
+    width: 80%;
+    margin: 20px auto; 
+    text-align: center; 
+}
+
+.histoire-titre {
+    margin-bottom: 20px; 
+    font-size: 33px;
+    color: black;
+    margin-left: 40px;
+}
+
+.histoire-contenu {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.histoire-img {
+    width: 40%; 
+    margin-right: 20px; 
+}
+
+.histoire-texte {
+    width: 60%; 
+    text-align: left; 
+    font-weight: bold;
+    font-size: 22px;
+}
+.imgFondIndex{
+    background-image: url('imgIndex/fondIndex.jpg');
+}
+.containerPalmares {
+    max-width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.palmares-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.titles {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.images img {
+    margin-bottom: 10px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+} 
